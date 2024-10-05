@@ -81,13 +81,12 @@ local plugins = {
         capabilities = capabilities,
       }
 
-      -- TypeScript/JavaScript (typescript-language-server) configuration
-      lspconfig.tsserver.setup {
-        on_attach = on_attach,
-        capabilities = capabilities,
-        filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact" },
-      }
-
+      --  TypeScript/JavaScript (typescript-language-server) configuration
+      -- lspconfig.tsserver.setup {
+      --   on_attach = on_attach,
+      --   capabilities = capabilities,
+      --   filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact" },
+      -- }
       -- Ruby (solargraph) configuration
       lspconfig.solargraph.setup {
         on_attach = on_attach,
