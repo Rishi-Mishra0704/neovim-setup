@@ -97,7 +97,7 @@ local plugins = {
       vim.api.nvim_create_autocmd("BufWritePre", {
         group = vim.api.nvim_create_augroup("FormatOnSave", { clear = true }),
         pattern = "*",
-        callback = function() vim.lsp.buf.formatting_sync(nil, 1000) end,
+        callback = function() vim.lsp.buf.format(nil, 1000) end,
       })
     end,
   },
