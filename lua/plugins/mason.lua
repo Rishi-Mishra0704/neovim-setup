@@ -23,7 +23,7 @@ local plugins = {
 					"solargraph", -- Ruby language server
 					"html-lsp", -- HTML language server
 					"css-lsp", -- CSS language server
-					-- "lua-language-server",       -- Uncomment for Lua support
+					"lua-language-server", -- Uncomment for Lua support
 					-- "rust-analyzer",             -- Uncomment for Rust support
 				},
 			})
